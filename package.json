@@ -1,0 +1,52 @@
+{
+  "name": "stepbystep-server",
+  "version": "1.0.0",
+  "description": "stepByStep-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config build/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travelclover/stepByStep-server.git"
+  },
+  "author": "travelclover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travelclover/stepByStep-server/issues"
+  },
+  "homepage": "https://github.com/travelclover/stepByStep-server#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "knex": "^0.13.0",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^3.2.0",
+    "koa-log4": "^2.1.0",
+    "koa-router": "^7.0.1",
+    "koa2-cors": "2.0.4",
+    "lodash": "^4.17.5",
+    "log4js": "^2.5.2",
+    "mkdir-p": "0.0.7",
+    "mysql": "^2.15.0",
+    "pify": "^2.3.0",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^7.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "debug": "^2.6.8",
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}

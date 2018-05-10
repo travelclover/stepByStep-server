@@ -1,0 +1,994 @@
+[2018-05-10T14:34:44.639] [INFO] index.js - ===================================
+[2018-05-10T14:34:44.643] [INFO] index.js - app start
+[2018-05-10T14:34:45.978] [INFO] app.js - listening on port 3000
+[2018-05-10T14:58:21.346] [INFO] index.js - ===================================
+[2018-05-10T14:58:21.351] [INFO] index.js - app start
+[2018-05-10T14:58:22.582] [INFO] app.js - listening on port 3000
+[2018-05-10T14:59:20.670] [INFO] index.js - ===================================
+[2018-05-10T14:59:20.673] [INFO] index.js - app start
+[2018-05-10T14:59:22.010] [INFO] app.js - listening on port 3000
+[2018-05-10T15:00:00.937] [INFO] index.js - ===================================
+[2018-05-10T15:00:00.941] [INFO] index.js - app start
+[2018-05-10T15:00:02.322] [INFO] app.js - listening on port 3000
+[2018-05-10T15:15:43.597] [INFO] index.js - ===================================
+[2018-05-10T15:15:43.603] [INFO] index.js - app start
+[2018-05-10T15:15:45.335] [INFO] app.js - listening on port 3000
+[2018-05-10T15:17:15.829] [INFO] index.js - ===================================
+[2018-05-10T15:17:15.834] [INFO] index.js - app start
+[2018-05-10T15:17:17.785] [INFO] app.js - listening on port 3000
+[2018-05-10T15:17:55.438] [INFO] index.js - ===================================
+[2018-05-10T15:17:55.444] [INFO] index.js - app start
+[2018-05-10T15:17:57.360] [INFO] app.js - listening on port 3000
+[2018-05-10T15:19:05.932] [INFO] index.js - ===================================
+[2018-05-10T15:19:05.936] [INFO] index.js - app start
+[2018-05-10T15:19:07.846] [INFO] app.js - listening on port 3000
+[2018-05-10T15:20:58.286] [INFO] index.js - ===================================
+[2018-05-10T15:20:58.293] [INFO] index.js - app start
+[2018-05-10T15:21:00.048] [INFO] app.js - listening on port 3000
+[2018-05-10T15:21:27.718] [INFO] index.js - ===================================
+[2018-05-10T15:21:27.722] [INFO] index.js - app start
+[2018-05-10T15:21:30.002] [INFO] app.js - listening on port 3000
+[2018-05-10T15:25:02.568] [INFO] index.js - ===================================
+[2018-05-10T15:25:02.572] [INFO] index.js - app start
+[2018-05-10T15:25:04.325] [INFO] app.js - listening on port 3000
+[2018-05-10T15:28:32.897] [INFO] index.js - ===================================
+[2018-05-10T15:28:32.903] [INFO] index.js - app start
+[2018-05-10T15:28:35.037] [INFO] app.js - listening on port 3000
+[2018-05-10T15:31:22.758] [INFO] index.js - ===================================
+[2018-05-10T15:31:22.762] [INFO] index.js - app start
+[2018-05-10T15:31:24.841] [INFO] app.js - listening on port 3000
+[2018-05-10T15:31:49.880] [INFO] index.js - ===================================
+[2018-05-10T15:31:49.885] [INFO] index.js - app start
+[2018-05-10T15:31:51.681] [INFO] app.js - listening on port 3000
+[2018-05-10T15:39:03.993] [INFO] index.js - ===================================
+[2018-05-10T15:39:03.997] [INFO] index.js - app start
+[2018-05-10T15:53:18.644] [INFO] index.js - ===================================
+[2018-05-10T15:53:18.648] [INFO] index.js - app start
+[2018-05-10T15:53:20.533] [INFO] app.js - listening on port 3000
+[2018-05-10T15:53:49.180] [INFO] index.js - ===================================
+[2018-05-10T15:53:49.184] [INFO] index.js - app start
+[2018-05-10T15:53:51.046] [INFO] app.js - listening on port 3000
+[2018-05-10T15:56:05.801] [INFO] index.js - ===================================
+[2018-05-10T15:56:05.808] [INFO] index.js - app start
+[2018-05-10T15:56:07.677] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T15:56:07.678] [INFO] app.js - listening on port 3000
+[2018-05-10T16:00:36.255] [INFO] index.js - ===================================
+[2018-05-10T16:00:36.259] [INFO] index.js - app start
+[2018-05-10T16:00:38.444] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:00:38.445] [INFO] app.js - listening on port 3000
+[2018-05-10T16:01:59.292] [INFO] index.js - ===================================
+[2018-05-10T16:01:59.298] [INFO] index.js - app start
+[2018-05-10T16:02:01.101] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:02:01.102] [INFO] app.js - listening on port 3000
+[2018-05-10T16:04:25.040] [INFO] index.js - ===================================
+[2018-05-10T16:04:25.044] [INFO] index.js - app start
+[2018-05-10T16:04:26.855] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:04:26.856] [INFO] app.js - listening on port 3000
+[2018-05-10T16:07:49.465] [INFO] index.js - ===================================
+[2018-05-10T16:07:49.472] [INFO] index.js - app start
+[2018-05-10T16:07:51.205] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:07:51.207] [INFO] app.js - listening on port 3000
+[2018-05-10T16:20:16.516] [INFO] index.js - ===================================
+[2018-05-10T16:20:16.521] [INFO] index.js - app start
+[2018-05-10T16:20:18.269] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:20:18.271] [INFO] app.js - listening on port 3000
+[2018-05-10T16:58:28.999] [INFO] index.js - ===================================
+[2018-05-10T16:58:29.003] [INFO] index.js - app start
+[2018-05-10T16:58:30.428] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:58:30.429] [INFO] app.js - listening on port 3000
+[2018-05-10T16:59:19.627] [INFO] index.js - ===================================
+[2018-05-10T16:59:19.631] [INFO] index.js - app start
+[2018-05-10T16:59:21.071] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T16:59:21.073] [INFO] app.js - listening on port 3000
+[2018-05-10T16:59:21.126] [INFO] app.js - Socket {
+  nsp: 
+   Namespace {
+     name: '/stepByStep',
+     server: 
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     sockets: { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Circular] },
+     connected: { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Circular] },
+     fns: [],
+     ids: 0,
+     rooms: [],
+     flags: {},
+     adapter: 
+      Adapter {
+        nsp: [Circular],
+        rooms: [Object],
+        sids: [Object],
+        encoder: Encoder {} },
+     _events: { connection: [Function] },
+     _eventsCount: 1 },
+  server: 
+   Server {
+     nsps: { '/': [Object], '/stepByStep': [Object] },
+     parentNsps: Map {},
+     _path: '/socket.io',
+     _serveClient: true,
+     parser: 
+      { protocol: 4,
+        types: [Object],
+        CONNECT: 0,
+        DISCONNECT: 1,
+        EVENT: 2,
+        ACK: 3,
+        ERROR: 4,
+        BINARY_EVENT: 5,
+        BINARY_ACK: 6,
+        Encoder: [Function: Encoder],
+        Decoder: [Function: Decoder] },
+     encoder: Encoder {},
+     _adapter: [Function: Adapter],
+     _origins: '*:*',
+     sockets: 
+      Namespace {
+        name: '/',
+        server: [Circular],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     eio: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     httpServer: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3001' },
+     engine: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 } },
+  adapter: 
+   Adapter {
+     nsp: 
+      Namespace {
+        name: '/stepByStep',
+        server: [Object],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Circular],
+        _events: [Object],
+        _eventsCount: 1 },
+     rooms: { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object] },
+     sids: { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object] },
+     encoder: Encoder {} },
+  id: '/stepByStep#4x7P7EsiJcoxhSfTAAAA',
+  client: 
+   Client {
+     server: 
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     conn: 
+      Socket {
+        id: '4x7P7EsiJcoxhSfTAAAA',
+        server: [Object],
+        upgrading: false,
+        upgraded: false,
+        readyState: 'open',
+        writeBuffer: [Object],
+        packetsFn: [],
+        sentCallbackFn: [],
+        cleanupFn: [Object],
+        request: [Object],
+        remoteAddress: '::ffff:127.0.0.1',
+        checkIntervalTimer: null,
+        upgradeTimeoutTimer: null,
+        pingTimeoutTimer: [Object],
+        transport: [Object],
+        _events: [Object],
+        _eventsCount: 3 },
+     encoder: Encoder {},
+     decoder: Decoder { reconstructor: null, _callbacks: [Object] },
+     id: '4x7P7EsiJcoxhSfTAAAA',
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=MD9Hh9l',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: true,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup],
+        read: [Function] },
+     onclose: [Function: bound ],
+     ondata: [Function: bound ],
+     onerror: [Function: bound ],
+     ondecoded: [Function: bound ],
+     sockets: 
+      { '4x7P7EsiJcoxhSfTAAAA': [Object],
+        '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Circular] },
+     nsps: { '/': [Object], '/stepByStep': [Circular] },
+     connectBuffer: [] },
+  conn: 
+   Socket {
+     id: '4x7P7EsiJcoxhSfTAAAA',
+     server: 
+      Server {
+        clients: [Object],
+        clientsCount: 1,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     upgrading: false,
+     upgraded: false,
+     readyState: 'open',
+     writeBuffer: [ [Object], [Object], [Object] ],
+     packetsFn: [],
+     sentCallbackFn: [],
+     cleanupFn: [ [Function], [Function] ],
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=MD9Hh9l',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: true,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup],
+        read: [Function] },
+     remoteAddress: '::ffff:127.0.0.1',
+     checkIntervalTimer: null,
+     upgradeTimeoutTimer: null,
+     pingTimeoutTimer: 
+      Timeout {
+        _called: false,
+        _idleTimeout: 30000,
+        _idlePrev: [Object],
+        _idleNext: [Object],
+        _idleStart: 1757,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null },
+     transport: 
+      XHR {
+        readyState: 'open',
+        discarded: false,
+        closeTimeout: 30000,
+        maxHttpBufferSize: 100000000,
+        httpCompression: [Object],
+        supportsBinary: true,
+        _events: [Object],
+        _eventsCount: 5,
+        sid: '4x7P7EsiJcoxhSfTAAAA',
+        req: null,
+        res: null,
+        writable: false,
+        dataReq: null,
+        dataRes: null },
+     _events: 
+      { close: [Object],
+        data: [Function: bound ],
+        error: [Function: bound ] },
+     _eventsCount: 3 },
+  rooms: {},
+  acks: {},
+  connected: true,
+  disconnected: false,
+  handshake: 
+   { headers: 
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        accept: '*/*',
+        origin: 'http://localhost:9000',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie: 'io=uUPPQ-UwAxosEfD4AAAM' },
+     time: 'Thu May 10 2018 16:59:21 GMT+0800 (中国标准时间)',
+     address: '::ffff:127.0.0.1',
+     xdomain: true,
+     secure: false,
+     issued: 1525942761124,
+     url: '/socket.io/?EIO=3&transport=polling&t=MD9Hh9l',
+     query: { EIO: '3', transport: 'polling', t: 'MD9Hh9l' } },
+  fns: [],
+  flags: {},
+  _rooms: [],
+  _events: { 'my other event': [Function], ready: [Function] },
+  _eventsCount: 2 }
+[2018-05-10T16:59:21.189] [INFO] app.js - Socket {
+  nsp: 
+   Namespace {
+     name: '/stepByStep',
+     server: 
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     sockets: 
+      { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object],
+        '/stepByStep#q4ApqFqMuANfzQSIAAAB': [Circular] },
+     connected: 
+      { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object],
+        '/stepByStep#q4ApqFqMuANfzQSIAAAB': [Circular] },
+     fns: [],
+     ids: 0,
+     rooms: [],
+     flags: {},
+     adapter: 
+      Adapter {
+        nsp: [Circular],
+        rooms: [Object],
+        sids: [Object],
+        encoder: Encoder {} },
+     _events: { connection: [Function] },
+     _eventsCount: 1 },
+  server: 
+   Server {
+     nsps: { '/': [Object], '/stepByStep': [Object] },
+     parentNsps: Map {},
+     _path: '/socket.io',
+     _serveClient: true,
+     parser: 
+      { protocol: 4,
+        types: [Object],
+        CONNECT: 0,
+        DISCONNECT: 1,
+        EVENT: 2,
+        ACK: 3,
+        ERROR: 4,
+        BINARY_EVENT: 5,
+        BINARY_ACK: 6,
+        Encoder: [Function: Encoder],
+        Decoder: [Function: Decoder] },
+     encoder: Encoder {},
+     _adapter: [Function: Adapter],
+     _origins: '*:*',
+     sockets: 
+      Namespace {
+        name: '/',
+        server: [Circular],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     eio: 
+      Server {
+        clients: [Object],
+        clientsCount: 2,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     httpServer: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 5,
+        _maxListeners: undefined,
+        _connections: 5,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3001' },
+     engine: 
+      Server {
+        clients: [Object],
+        clientsCount: 2,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 } },
+  adapter: 
+   Adapter {
+     nsp: 
+      Namespace {
+        name: '/stepByStep',
+        server: [Object],
+        sockets: [Object],
+        connected: [Object],
+        fns: [],
+        ids: 0,
+        rooms: [],
+        flags: {},
+        adapter: [Circular],
+        _events: [Object],
+        _eventsCount: 1 },
+     rooms: 
+      { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object],
+        '/stepByStep#q4ApqFqMuANfzQSIAAAB': [Object] },
+     sids: 
+      { '/stepByStep#4x7P7EsiJcoxhSfTAAAA': [Object],
+        '/stepByStep#q4ApqFqMuANfzQSIAAAB': [Object] },
+     encoder: Encoder {} },
+  id: '/stepByStep#q4ApqFqMuANfzQSIAAAB',
+  client: 
+   Client {
+     server: 
+      Server {
+        nsps: [Object],
+        parentNsps: Map {},
+        _path: '/socket.io',
+        _serveClient: true,
+        parser: [Object],
+        encoder: Encoder {},
+        _adapter: [Function: Adapter],
+        _origins: '*:*',
+        sockets: [Object],
+        eio: [Object],
+        httpServer: [Object],
+        engine: [Object] },
+     conn: 
+      Socket {
+        id: 'q4ApqFqMuANfzQSIAAAB',
+        server: [Object],
+        upgrading: true,
+        upgraded: false,
+        readyState: 'open',
+        writeBuffer: [Object],
+        packetsFn: [],
+        sentCallbackFn: [],
+        cleanupFn: [Object],
+        request: [Object],
+        remoteAddress: '::1',
+        checkIntervalTimer: null,
+        upgradeTimeoutTimer: [Object],
+        pingTimeoutTimer: [Object],
+        transport: [Object],
+        _events: [Object],
+        _eventsCount: 3 },
+     encoder: Encoder {},
+     decoder: Decoder { reconstructor: null, _callbacks: [Object] },
+     id: 'q4ApqFqMuANfzQSIAAAB',
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=MD9HhNN',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: true,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup],
+        read: [Function] },
+     onclose: [Function: bound ],
+     ondata: [Function: bound ],
+     onerror: [Function: bound ],
+     ondecoded: [Function: bound ],
+     sockets: 
+      { q4ApqFqMuANfzQSIAAAB: [Object],
+        '/stepByStep#q4ApqFqMuANfzQSIAAAB': [Circular] },
+     nsps: { '/': [Object], '/stepByStep': [Circular] },
+     connectBuffer: [] },
+  conn: 
+   Socket {
+     id: 'q4ApqFqMuANfzQSIAAAB',
+     server: 
+      Server {
+        clients: [Object],
+        clientsCount: 2,
+        wsEngine: 'ws',
+        pingTimeout: 5000,
+        pingInterval: 25000,
+        upgradeTimeout: 10000,
+        maxHttpBufferSize: 100000000,
+        transports: [Object],
+        allowUpgrades: true,
+        allowRequest: [Function: bound ],
+        cookie: 'io',
+        cookiePath: '/',
+        cookieHttpOnly: true,
+        perMessageDeflate: [Object],
+        httpCompression: [Object],
+        initialPacket: [Object],
+        ws: [Object],
+        _events: [Object],
+        _eventsCount: 1 },
+     upgrading: true,
+     upgraded: false,
+     readyState: 'open',
+     writeBuffer: [ [Object], [Object], [Object] ],
+     packetsFn: [],
+     sentCallbackFn: [],
+     cleanupFn: [ [Function], [Function] ],
+     request: 
+      IncomingMessage {
+        _readableState: [Object],
+        readable: false,
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        socket: [Object],
+        connection: [Object],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Object],
+        trailers: {},
+        rawTrailers: [],
+        upgrade: false,
+        url: '/socket.io/?EIO=3&transport=polling&t=MD9HhNN',
+        method: 'GET',
+        statusCode: null,
+        statusMessage: null,
+        client: [Object],
+        _consuming: true,
+        _dumped: true,
+        _query: [Object],
+        res: [Object],
+        cleanup: [Function: cleanup],
+        read: [Function] },
+     remoteAddress: '::1',
+     checkIntervalTimer: null,
+     upgradeTimeoutTimer: 
+      Timeout {
+        _called: false,
+        _idleTimeout: 10000,
+        _idlePrev: [Object],
+        _idleNext: [Object],
+        _idleStart: 1820,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null },
+     pingTimeoutTimer: 
+      Timeout {
+        _called: false,
+        _idleTimeout: 30000,
+        _idlePrev: [Object],
+        _idleNext: [Object],
+        _idleStart: 1821,
+        _onTimeout: [Function],
+        _timerArgs: undefined,
+        _repeat: null },
+     transport: 
+      XHR {
+        readyState: 'open',
+        discarded: false,
+        closeTimeout: 30000,
+        maxHttpBufferSize: 100000000,
+        httpCompression: [Object],
+        supportsBinary: true,
+        _events: [Object],
+        _eventsCount: 5,
+        sid: 'q4ApqFqMuANfzQSIAAAB',
+        req: null,
+        res: null,
+        writable: false,
+        dataReq: null,
+        dataRes: null },
+     _events: 
+      { close: [Object],
+        data: [Function: bound ],
+        error: [Function: bound ] },
+     _eventsCount: 3 },
+  rooms: {},
+  acks: {},
+  connected: true,
+  disconnected: false,
+  handshake: 
+   { headers: 
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        accept: '*/*',
+        origin: 'http://localhost:9000',
+        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36',
+        referer: 'http://localhost:9000/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9',
+        cookie: 'io=SVGSuCL7U3wgihH8AAAA' },
+     time: 'Thu May 10 2018 16:59:21 GMT+0800 (中国标准时间)',
+     address: '::1',
+     xdomain: true,
+     secure: false,
+     issued: 1525942761187,
+     url: '/socket.io/?EIO=3&transport=polling&t=MD9HhNN',
+     query: { EIO: '3', transport: 'polling', t: 'MD9HhNN' } },
+  fns: [],
+  flags: {},
+  _rooms: [],
+  _events: { 'my other event': [Function], ready: [Function] },
+  _eventsCount: 2 }
+[2018-05-10T17:29:58.026] [INFO] index.js - ===================================
+[2018-05-10T17:29:58.030] [INFO] index.js - app start
+[2018-05-10T17:29:59.457] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:29:59.458] [INFO] app.js - listening on port 3000
+[2018-05-10T17:30:49.966] [INFO] index.js - ===================================
+[2018-05-10T17:30:49.971] [INFO] index.js - app start
+[2018-05-10T17:30:51.473] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:30:51.474] [INFO] app.js - listening on port 3000
+[2018-05-10T17:35:30.279] [INFO] index.js - ===================================
+[2018-05-10T17:35:30.285] [INFO] index.js - app start
+[2018-05-10T17:35:31.786] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:35:31.787] [INFO] app.js - listening on port 3000
+[2018-05-10T17:37:35.398] [INFO] index.js - ===================================
+[2018-05-10T17:37:35.403] [INFO] index.js - app start
+[2018-05-10T17:37:37.053] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:37:37.054] [INFO] app.js - listening on port 3000
+[2018-05-10T17:45:16.693] [INFO] index.js - ===================================
+[2018-05-10T17:45:16.698] [INFO] index.js - app start
+[2018-05-10T17:45:18.134] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:45:18.136] [INFO] app.js - listening on port 3000
+[2018-05-10T17:49:17.453] [INFO] index.js - ===================================
+[2018-05-10T17:49:17.457] [INFO] index.js - app start
+[2018-05-10T17:49:18.947] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:49:18.948] [INFO] app.js - listening on port 3000
+[2018-05-10T17:53:11.202] [INFO] index.js - ===================================
+[2018-05-10T17:53:11.206] [INFO] index.js - app start
+[2018-05-10T17:53:12.701] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:53:12.702] [INFO] app.js - listening on port 3000
+[2018-05-10T17:55:39.620] [INFO] index.js - ===================================
+[2018-05-10T17:55:39.624] [INFO] index.js - app start
+[2018-05-10T17:55:41.174] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:55:41.176] [INFO] app.js - listening on port 3000
+[2018-05-10T17:59:49.246] [INFO] index.js - ===================================
+[2018-05-10T17:59:49.250] [INFO] index.js - app start
+[2018-05-10T17:59:51.255] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T17:59:51.257] [INFO] app.js - listening on port 3000
+[2018-05-10T18:01:12.000] [INFO] index.js - ===================================
+[2018-05-10T18:01:12.004] [INFO] index.js - app start
+[2018-05-10T18:01:13.592] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T18:01:13.593] [INFO] app.js - listening on port 3000
+[2018-05-10T18:53:23.109] [INFO] index.js - ===================================
+[2018-05-10T18:53:23.114] [INFO] index.js - app start
+[2018-05-10T18:53:24.780] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T18:53:24.781] [INFO] app.js - listening on port 3000
+[2018-05-10T18:53:40.722] [INFO] app.js - transport close
+[2018-05-10T18:54:48.896] [INFO] index.js - ===================================
+[2018-05-10T18:54:48.901] [INFO] index.js - app start
+[2018-05-10T18:54:50.646] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T18:54:50.647] [INFO] app.js - listening on port 3000
+[2018-05-10T18:55:26.088] [INFO] app.js - transport close:/stepByStep#qQrek-CyZfErYHMhAAAA
+[2018-05-10T18:56:00.411] [INFO] app.js - transport close:/stepByStep#gSIBYS8T7Bl-tTBVAAAD
+[2018-05-10T18:56:20.960] [INFO] app.js - transport close:/stepByStep#jSGQ-tC7axGcB6OKAAAF
+[2018-05-10T18:56:24.854] [INFO] app.js - transport close:/stepByStep#8zrAAEFolyKUNsYpAAAE
+[2018-05-10T18:58:50.504] [INFO] index.js - ===================================
+[2018-05-10T18:58:50.508] [INFO] index.js - app start
+[2018-05-10T18:58:52.102] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T18:58:52.104] [INFO] app.js - listening on port 3000
+[2018-05-10T18:59:02.622] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525949942621,
+    players: [ '/stepByStep#zXrc0wCAanFFCNmCAAAC' ] } ]
+[2018-05-10T18:59:51.113] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525949942621,
+    players: 
+     [ '/stepByStep#zXrc0wCAanFFCNmCAAAC',
+       '/stepByStep#qfrP0BnMhnkovq7sAAAB' ] },
+  { roomName: 2, createTime: 1525949991113, players: [] } ]
+[2018-05-10T19:00:27.429] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525949942621,
+    players: 
+     [ '/stepByStep#zXrc0wCAanFFCNmCAAAC',
+       '/stepByStep#qfrP0BnMhnkovq7sAAAB' ] },
+  { roomName: 2,
+    createTime: 1525949991113,
+    players: 
+     [ '/stepByStep#MR69aBQeryQ8jOp9AAAA',
+       '/stepByStep#qfrP0BnMhnkovq7sAAAB' ] },
+  { roomName: 3, createTime: 1525950027429, players: [] } ]
+[2018-05-10T19:03:48.274] [INFO] index.js - ===================================
+[2018-05-10T19:03:48.277] [INFO] index.js - app start
+[2018-05-10T19:03:49.815] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:03:49.815] [INFO] app.js - listening on port 3000
+[2018-05-10T19:04:38.201] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950240122,
+    players: [ '/stepByStep#1tO97WYoOUAid9WHAAAA' ] } ]
+[2018-05-10T19:04:40.132] [INFO] app.js - 断开链接，socketId:/stepByStep#m5cVv44uUIl_SMGAAAAB
+[2018-05-10T19:04:40.134] [INFO] app.js - 断开链接，socketId:/stepByStep#RcvmDz6jHMjdJEiCAAAC
+[2018-05-10T19:04:40.135] [INFO] app.js - 断开链接，socketId:/stepByStep#1tO97WYoOUAid9WHAAAA
+[2018-05-10T19:05:48.106] [INFO] app.js - 断开链接，socketId:/stepByStep#ne5Ab-w-XfcYjZOcAAAE
+[2018-05-10T19:05:48.109] [INFO] app.js - 断开链接，socketId:/stepByStep#w9i8kOsJjPaAAxR8AAAF
+[2018-05-10T19:05:48.179] [INFO] app.js - 断开链接，socketId:/stepByStep#cZ_PR_qlJlOnHy0rAAAD
+[2018-05-10T19:08:42.947] [INFO] index.js - ===================================
+[2018-05-10T19:08:42.948] [INFO] index.js - app start
+[2018-05-10T19:08:44.473] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:08:44.474] [INFO] app.js - listening on port 3000
+[2018-05-10T19:08:50.915] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950530914,
+    players: [ '/stepByStep#LM90ddttgzzXTo_WAAAA' ] } ]
+[2018-05-10T19:10:23.846] [INFO] index.js - ===================================
+[2018-05-10T19:10:23.848] [INFO] index.js - app start
+[2018-05-10T19:10:25.733] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:10:25.734] [INFO] app.js - listening on port 3000
+[2018-05-10T19:10:28.851] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950628850,
+    players: [ '/stepByStep#dTLayLIWuCz9XcRcAAAC' ] } ]
+[2018-05-10T19:10:56.245] [INFO] index.js - ===================================
+[2018-05-10T19:10:56.247] [INFO] index.js - app start
+[2018-05-10T19:10:58.168] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:10:58.169] [INFO] app.js - listening on port 3000
+[2018-05-10T19:11:00.691] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950660690,
+    players: [ '/stepByStep#U5Rnuq-QHess406BAAAA' ] } ]
+[2018-05-10T19:12:34.738] [INFO] index.js - ===================================
+[2018-05-10T19:12:34.739] [INFO] index.js - app start
+[2018-05-10T19:12:36.522] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:12:36.523] [INFO] app.js - listening on port 3000
+[2018-05-10T19:12:40.504] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950760504,
+    players: [ '/stepByStep#uhQxyKzevDXZ0jLLAAAC' ] } ]
+[2018-05-10T19:13:14.882] [INFO] index.js - ===================================
+[2018-05-10T19:13:14.884] [INFO] index.js - app start
+[2018-05-10T19:13:16.809] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:13:16.809] [INFO] app.js - listening on port 3000
+[2018-05-10T19:13:20.314] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950800313,
+    players: [ '/stepByStep#11LJmdcDfh6DRSivAAAC' ] } ]
+[2018-05-10T19:13:59.815] [INFO] index.js - ===================================
+[2018-05-10T19:13:59.817] [INFO] index.js - app start
+[2018-05-10T19:14:01.647] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:14:01.648] [INFO] app.js - listening on port 3000
+[2018-05-10T19:14:05.571] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950845569,
+    players: [ '/stepByStep#swZd8kKg7fODAHcuAAAC' ] } ]
+[2018-05-10T19:14:24.225] [INFO] index.js - ===================================
+[2018-05-10T19:14:24.227] [INFO] index.js - app start
+[2018-05-10T19:14:26.194] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:14:26.195] [INFO] app.js - listening on port 3000
+[2018-05-10T19:14:30.349] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950870348,
+    players: [ '/stepByStep#fdl18e7yxnATBCr3AAAB' ] } ]
+[2018-05-10T19:15:12.587] [INFO] index.js - ===================================
+[2018-05-10T19:15:12.589] [INFO] index.js - app start
+[2018-05-10T19:15:14.343] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:15:14.343] [INFO] app.js - listening on port 3000
+[2018-05-10T19:15:18.359] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525950918358,
+    players: [ '/stepByStep#1zbga93BxC9U8bUJAAAC' ] } ]
+[2018-05-10T19:15:21.459] [INFO] app.js - undefined
+[2018-05-10T19:18:10.452] [INFO] index.js - ===================================
+[2018-05-10T19:18:10.454] [INFO] index.js - app start
+[2018-05-10T19:18:12.230] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:18:12.231] [INFO] app.js - listening on port 3000
+[2018-05-10T19:18:18.058] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951098057,
+    players: [ '/stepByStep#xFlrWw1SsTdyRx0UAAAB' ] } ]
+[2018-05-10T19:18:41.276] [INFO] app.js - undefined
+[2018-05-10T19:21:19.883] [INFO] index.js - ===================================
+[2018-05-10T19:21:19.884] [INFO] index.js - app start
+[2018-05-10T19:21:21.682] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:21:21.682] [INFO] app.js - listening on port 3000
+[2018-05-10T19:21:25.946] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951285945,
+    players: [ '/stepByStep#zGoMTiS3UQT9UfFZAAAC' ] } ]
+[2018-05-10T19:21:32.875] [INFO] app.js - [ '/stepByStep#zGoMTiS3UQT9UfFZAAAC' ]
+[2018-05-10T19:22:46.877] [INFO] index.js - ===================================
+[2018-05-10T19:22:46.879] [INFO] index.js - app start
+[2018-05-10T19:22:48.624] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:22:48.625] [INFO] app.js - listening on port 3000
+[2018-05-10T19:22:52.545] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951372544,
+    players: [ '/stepByStep#HqQoC1cpqv45sGtsAAAB' ] } ]
+[2018-05-10T19:22:56.563] [INFO] app.js - undefined
+[2018-05-10T19:23:54.734] [INFO] index.js - ===================================
+[2018-05-10T19:23:54.735] [INFO] index.js - app start
+[2018-05-10T19:23:56.582] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:23:56.582] [INFO] app.js - listening on port 3000
+[2018-05-10T19:24:00.673] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951440672,
+    players: [ '/stepByStep#aEwcJw5liNUtBQfvAAAB' ] } ]
+[2018-05-10T19:24:02.209] [INFO] app.js - [ '/stepByStep#aEwcJw5liNUtBQfvAAAB' ]
+[2018-05-10T19:24:14.739] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951440672,
+    players: 
+     [ '/stepByStep#aEwcJw5liNUtBQfvAAAB',
+       '/stepByStep#eLxIdq9XVUg-X0--AAAA' ] },
+  { roomName: 2, createTime: 1525951454738, players: [] } ]
+[2018-05-10T19:25:46.728] [INFO] index.js - ===================================
+[2018-05-10T19:25:46.730] [INFO] index.js - app start
+[2018-05-10T19:25:48.566] [INFO] app.js - webSocket server is running on localhost: 3001
+[2018-05-10T19:25:48.566] [INFO] app.js - listening on port 3000
+[2018-05-10T19:25:51.273] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951551272,
+    players: [ '/stepByStep#BydkGfJfXsyzQcpFAAAC' ] } ]
+[2018-05-10T19:25:52.866] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951551272,
+    players: [ '/stepByStep#BydkGfJfXsyzQcpFAAAC' ] } ]
+[2018-05-10T19:26:15.339] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951551272,
+    players: 
+     [ '/stepByStep#BydkGfJfXsyzQcpFAAAC',
+       '/stepByStep#sjuGpwpG74r65_sUAAAA' ] },
+  { roomName: 2, createTime: 1525951575339, players: [] } ]
+[2018-05-10T19:26:27.858] [INFO] app.js - [ { roomName: 1,
+    createTime: 1525951551272,
+    players: 
+     [ '/stepByStep#BydkGfJfXsyzQcpFAAAC',
+       '/stepByStep#sjuGpwpG74r65_sUAAAA' ] },
+  { roomName: 2,
+    createTime: 1525951575339,
+    players: [ '/stepByStep#7jXZ7izBbsVVeprOAAAD' ] } ]
