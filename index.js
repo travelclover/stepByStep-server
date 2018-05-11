@@ -20,4 +20,4 @@ logger.info('===================================');
 logger.info('app start');
 require("babel-core/register");
 require("babel-polyfill");  // 解决async
-require("./app.js");
+require("./src/app.js");
