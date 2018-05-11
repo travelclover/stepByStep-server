@@ -16,7 +16,7 @@ server.listen(config.ioPort, function () {
 
 // 跨域
 app.use(cors({
-  origin: '*'
+  origin: 'http://localhost:9000'
 }));
 
 // 使用响应处理中间件
@@ -58,48 +58,59 @@ stepByStep.on('connection', function (socket) {
 
   // 玩家准备
   socket.on('ready', async function (data) {
-    // 获取最近房间客户端数量
-    let room = stepByStepRooms.length > 0 ? stepByStepRooms[stepByStepRooms.length - 1] : null;
-    if (room) {
-      let clients = await getRoomClients(stepByStep, room.roomName);
-      if (clients.length < 2) {
-        await joinRoom(stepByStep, socket, room.roomName, data);
-        // 判断人数是否已满，已满则开始游戏
-        if (clients.length + 1 == 2) {
-          beginGame(); // 开始游戏
-        }
-      } else { // 人数已满
-        // 生成一个新房间
-        room = createNewRoom();
-        stepByStepRooms.push(room);
-        // 加入房间
-        await joinRoom(stepByStep, socket, room.roomName, data);
-      }
-    } else {
+    // 判断玩家是否已经加入房间
+    if (isJoinRoom(socket)) {
+      return
+    }
+    // 获取未满的房间
+    let room = getEmptyRoom();
+    if (!room) { // 没有空房间
       // 生成一个新房间
       room = createNewRoom();
       stepByStepRooms.push(room);
-      // 加入房间
-      await joinRoom(stepByStep, socket, room.roomName, data);
+    }
+    // 加入房间
+    await joinRoom(stepByStep, socket, room.roomName, data);
+    let clients = await getRoomClients(stepByStep, room.roomName);
+    if (clients.length == 2) {
+      beginGame(stepByStep, room.roomName); // 开始游戏
     }
     logger.info(stepByStepRooms)
   });
 
+  // 切换行动玩家
+  socket.on('changeActionPlayer', function (data) {
+    let point = transformPoint(data.x, data.y);
+    let room = getRoomBySocketid(socket.id);
+    let plankIndex = data.plankIndex.map(item => {
+      return 360 - item;
+    });
+    let newData = {
+      x: point.x,
+      y: point.y,
+      plankCount: data.plankCount,
+      socketId: socket.id, // 刚行动完的玩家sockey.id
+      plankIndex: plankIndex, //
+    }
+    stepByStep.to(room.roomName).emit('changeActionPlayer', newData);
+  })
+
   // 断开链接
-  socket.on('disconnect', function (data) {
+  socket.on('disconnect', async function (data) {
     logger.info('断开链接，' + 'socketId:' + socket.id);
+    // 将房间里的socket.id清除
+    await clearRoomClient(stepByStep, socket);
   });
 });
 
 /**
- * 获取命名空间里特定房间名的客户端列表
+ * 获取命名空间里的客户端列表
  * @param  {object}   server     命名空间服务
- * @param  {string}   roomName   房间名称
  * @return {array}               返回数组
  */
-async function getRoomClients(server, roomName) {
+async function getServerClients(server) {
   let list;
-  await server.in(roomName).clients((error, clients) => {
+  await server.clients((error, clients) => {
     if (error) throw error;
     list = clients;
   });
@@ -107,11 +118,27 @@ async function getRoomClients(server, roomName) {
 }
 
 /**
+ * 获取命名空间里特定房间名的客户端列表
+ * @param  {object}   server     命名空间服务
+ * @param  {string}   roomName   房间名称
+ * @return {array}               返回数组
+ */
+function getRoomClients(server, roomName) {
+  return new Promise(function (resolve, reject) {
+    server.in(roomName).clients((error, clients) => {
+      if (error) throw error;
+      resolve(clients);
+    });
+  })
+}
+
+/**
  * 开始游戏
  */
 function beginGame(server, roomName) {
   // server.to(roomName).emit('begin')
-  console.log('begin')
+  let room = getRoomByName(roomName);
+  server.to(roomName).emit('start-game', room);
 }
 
 /**
@@ -120,7 +147,7 @@ function beginGame(server, roomName) {
 function createNewRoom() {
   roomCount++;
   let room = {
-    roomName: roomCount,
+    roomName: roomCount + '',
     createTime: new Date().getTime(),
     players: [], // 玩家列表
   }
@@ -139,5 +166,83 @@ async function joinRoom(server, socket, roomName, data) {
     let room = stepByStepRooms.find(item => item.roomName == roomName);
     room.players.push(data.socketId);
     server.to(roomName).emit('message', 'a new user has joined the room');
+    server.to(roomName).emit('ready', '');
   });
+}
+
+/**
+ * 清除stepByStepRooms已经离开的人
+ */
+async function clearRoomClient(server, socket) {
+  let clients = await getServerClients(server);
+  let rooms = [];
+  stepByStepRooms.forEach((item) => {
+    let needClear = true; // 是否需要清除房间的标记
+    let playerIndex = []; // 已经离开房间的玩家位置索引
+    for (let i = 0; i < item.players.length; i++) {
+      let socketId = clients.find(client => client == item.players[i]);
+      if (socketId) {
+        needClear = false;
+      } else {
+        playerIndex.push(i);
+      }
+    }
+    if (playerIndex.length == 1) {
+      item.players.splice(playerIndex[0], 1);
+    }
+    if (!needClear) {
+      rooms.push(item);
+    }
+  })
+  stepByStepRooms = rooms;
+}
+
+/**
+ * 获取人数未满的房间
+ */
+function getEmptyRoom() {
+  let room = stepByStepRooms.find(item => item.players.length < 2);
+  return room;
+}
+
+// 根据房间名获取房间
+function getRoomByName(roomName) {
+  let room = stepByStepRooms.find(item => item.roomName == roomName);
+  return room;
+}
+
+// 根据socket.id获取房间
+function getRoomBySocketid(socketid) {
+  let room = stepByStepRooms.find(item => {
+    let tag = false;
+    for (let i = 0; i < item.players.length; i++) {
+      if (item.players[i] == socketid) {
+        tag = true;
+      }
+    }
+    return tag;
+  });
+  return room;
+}
+
+// 判断是否已经加入房间
+function isJoinRoom(socket) {
+  let room = stepByStepRooms.find(item => {
+    for (let i = 0; i < item.players.length; i++) {
+      if (socket.id == item.players[i]) {
+        return true;
+      }
+    }
+    return false;
+  })
+  return Boolean(room);
+}
+
+// 坐标转换
+function transformPoint(x, y) {
+  let point = {
+    x: 18 - x,
+    y: 18 - y,
+  }
+  return point;
 }
