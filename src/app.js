@@ -95,6 +95,12 @@ stepByStep.on('connection', function (socket) {
     stepByStep.to(room.roomName).emit('changeActionPlayer', newData);
   })
 
+  // 结束游戏
+  socket.on('gameover', function (data) {
+    let room = getRoomBySocketid(socket.id);
+    stepByStep.to(room.roomName).emit('gameover', data);
+  })
+
   // 断开链接
   socket.on('disconnect', async function (data) {
     logger.info('断开链接，' + 'socketId:' + socket.id);
