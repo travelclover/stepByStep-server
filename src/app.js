@@ -98,7 +98,19 @@ stepByStep.on('connection', function (socket) {
   // 结束游戏
   socket.on('gameover', function (data) {
     let room = getRoomBySocketid(socket.id);
-    stepByStep.to(room.roomName).emit('gameover', data);
+    let newData = Object.assign({}, data, {
+      roomName: room.roomName,
+    })
+    stepByStep.to(room.roomName).emit('gameover', newData);
+    // 清理房间
+    clearRoomByRoomName(room.roomName);
+  })
+
+  // 离开房间
+  socket.on('leaveRoom', function (data) {
+    socket.leave(data.roomName, () => {
+      logger.info(socket.id + ' 离开 “' + data.roomName + '”房间');
+    });
   })
 
   // 断开链接
@@ -153,7 +165,7 @@ function beginGame(server, roomName) {
 function createNewRoom() {
   roomCount++;
   let room = {
-    roomName: roomCount + '',
+    roomName: 'stepByStep room ' + roomCount,
     createTime: new Date().getTime(),
     players: [], // 玩家列表
   }
@@ -229,6 +241,17 @@ function getRoomBySocketid(socketid) {
     return tag;
   });
   return room;
+}
+
+// 根据房间名清除房间
+function clearRoomByRoomName(roomName) {
+  let rooms = [];
+  stepByStepRooms.forEach((item) => {
+    if (item.roomName != roomName) {
+      rooms.push(item);
+    }
+  })
+  stepByStepRooms = rooms;
 }
 
 // 判断是否已经加入房间
