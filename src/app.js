@@ -10,13 +10,14 @@ const logger = log4js.getLogger('app.js');
 const http = require('http');
 const server = http.createServer();
 const io = require('socket.io')(server);
+io.set('origins', '*:*');
 server.listen(config.ioPort, function () {
   logger.info('webSocket server is running on localhost:', config.ioPort);
 })
 
 // 跨域
 app.use(cors({
-  origin: 'http://localhost:9000'
+  origin: '*'
 }));
 
 // 使用响应处理中间件
