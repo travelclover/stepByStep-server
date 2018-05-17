@@ -1,3 +1,4 @@
+const fs = require('fs');
 const Koa = require('koa')
 const cors = require('koa2-cors')
 const app = new Koa()
@@ -8,7 +9,12 @@ const log4js = require('log4js');
 const logger = log4js.getLogger('app.js');
 
 const http = require('http');
-const server = http.createServer();
+const https = require('https');
+// const server = http.createServer(); // http
+const server = https.createServer({ // https
+  pfx: fs.readFileSync('证书.pfx'),
+  passphrase: '密码'
+});
 const io = require('socket.io')(server);
 io.set('origins', '*:*');
 server.listen(config.ioPort, function () {
