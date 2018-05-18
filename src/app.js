@@ -10,11 +10,11 @@ const logger = log4js.getLogger('app.js');
 
 const http = require('http');
 const https = require('https');
-// const server = http.createServer(); // http
-const server = https.createServer({ // https
+const server = http.createServer(); // http
+/*const server = https.createServer({ // https
   pfx: fs.readFileSync('证书.pfx'),
   passphrase: '密码'
-});
+});*/
 const io = require('socket.io')(server);
 io.set('origins', '*:*');
 server.listen(config.ioPort, function () {
@@ -92,23 +92,36 @@ stepByStep.on('connection', function (socket) {
     let plankIndex = data.plankIndex.map(item => {
       return 360 - item;
     });
-    let newData = {
+    let res = {
       x: point.x,
       y: point.y,
       plankCount: data.plankCount,
       socketId: socket.id, // 刚行动完的玩家sockey.id
       plankIndex: plankIndex, //
     }
-    stepByStep.to(room.roomName).emit('changeActionPlayer', newData);
+    stepByStep.to(room.roomName).emit('changeActionPlayer', res);
+  })
+
+  // 玩家认输
+  socket.on('giveUp', function (data) {
+    let room = getRoomBySocketid(socket.id);
+    let socketId = room.players.find(item => item != socket.id); // 获胜玩家socketid
+    let res = {
+      roomName: room.roomName,
+      id: socketId,
+    }
+    stepByStep.to(room.roomName).emit('gameover', res);
+    // 清理房间
+    clearRoomByRoomName(room.roomName);
   })
 
   // 结束游戏
   socket.on('gameover', function (data) {
     let room = getRoomBySocketid(socket.id);
-    let newData = Object.assign({}, data, {
-      roomName: room.roomName,
+    let res = Object.assign({}, data, {
+      roomName: room.roomName, // 客户端发起离开房间的请求
     })
-    stepByStep.to(room.roomName).emit('gameover', newData);
+    stepByStep.to(room.roomName).emit('gameover', res);
     // 清理房间
     clearRoomByRoomName(room.roomName);
   })
