@@ -126,6 +126,21 @@ stepByStep.on('connection', function (socket) {
     clearRoomByRoomName(room.roomName);
   })
 
+  // 消息
+  socket.on('message', function (data) {
+    let res = {
+      socketId: socket.id, // socket.id
+      msg: data.msg, // 消息
+      time: new Date().getTime(), // 时间
+    };
+    let room = getRoomBySocketid(socket.id);
+    if (!room) {
+      return;
+    }
+    socket.emit('sendMsgSuccess');
+    stepByStep.to(room.roomName).emit('message', res);
+  })
+
   // 离开房间
   socket.on('leaveRoom', function (data) {
     socket.leave(data.roomName, () => {
@@ -177,6 +192,12 @@ function beginGame(server, roomName) {
   // server.to(roomName).emit('begin')
   let room = getRoomByName(roomName);
   server.to(roomName).emit('start-game', room);
+  let res = {
+    socketId: '',
+    msg: '游戏开始',
+    time: new Date().getTime(),
+  }
+  server.to(roomName).emit('message', res);
 }
 
 /**
@@ -203,7 +224,12 @@ async function joinRoom(server, socket, roomName, data) {
   await socket.join(roomName, async () => {
     let room = stepByStepRooms.find(item => item.roomName == roomName);
     room.players.push(data.socketId);
-    server.to(roomName).emit('message', 'a new user has joined the room');
+    let res = {
+      socketId: '',
+      msg: 'a new user has joined the room',
+      time: new Date().getTime(),
+    }
+    server.to(roomName).emit('message', res);
     server.to(roomName).emit('ready', '');
   });
 }
