@@ -105,6 +105,9 @@ stepByStep.on('connection', function (socket) {
   // 玩家认输
   socket.on('giveUp', function (data) {
     let room = getRoomBySocketid(socket.id);
+    if (!room) {
+      return;
+    }
     let socketId = room.players.find(item => item != socket.id); // 获胜玩家socketid
     let res = {
       roomName: room.roomName,
